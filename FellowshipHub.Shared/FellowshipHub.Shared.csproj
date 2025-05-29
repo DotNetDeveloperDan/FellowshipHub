@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Auth\" />
+    <Folder Include="Models\Chat\" />
+    <Folder Include="Models\Events\" />
+    <Folder Include="Models\Groups\" />
+    <Folder Include="Models\Content\" />
+    <Folder Include="Models\Common\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
+</Project>
