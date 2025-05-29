@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.5" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
+    <PackageReference Include="System.Security.Permissions" Version="9.0.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,11 +22,8 @@
 
   <ItemGroup>
     <Folder Include="Extensions\" />
-    <Folder Include="Exceptions\" />
     <Folder Include="Repositories\Interfaces\" />
     <Folder Include="Repositories\Implementations\" />
-    <Folder Include="Services\Implementations\" />
-    <Folder Include="Services\Interfaces\" />
     <Folder Include="Services\SignalR\" />
   </ItemGroup>
 
